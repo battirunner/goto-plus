@@ -1,0 +1,26 @@
+@import url('/assets/css/style.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Override Tailwind reset for the original styles to work */
+@layer base {
+  html {
+    font-size: 4.26667vw;
+  }
+  body {
+    font-family: YuMincho, "Yu Mincho", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333;
+    background: #fff;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 16px;
+  }
+}
