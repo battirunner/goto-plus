@@ -1,24 +1,40 @@
 /* Custom overrides to fix image paths */
 .btn::after {
   background-image: url('/assets/img/arrow.png') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 .nav__item--tel::before {
   background-image: url('/assets/img/tel.png') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 .slider-item01 {
-  background: url('/assets/img/fv.jpg') !important;
+  background-image: url('/assets/img/fv.jpg') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 .slider-item02 {
-  background: url('/assets/img/fv-2.jpg') !important;
+  background-image: url('/assets/img/fv-2.jpg') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 .slider-item03 {
-  background: url('/assets/img/fv-3.jpg') !important;
+  background-image: url('/assets/img/fv-3.jpg') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 .supplement {
   background-image: url('/assets/img/bg02.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
 }
